@@ -1,0 +1,26 @@
+/* CSS principal da pagina */
+/* Normaliza CSS - e o estilo padrao a ser usado por todos os browsers */
+
+*{/*Reset para o navegador*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body *{/*Aplica uma borda vermelha em todos os objetos em body*/
+  border: 0.001px red solid;
+}
+
+.headerItems{
+  display: none;
+  gap: 10px;
+  height: 44;
+  width: 14;
+}
+
+.containerHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

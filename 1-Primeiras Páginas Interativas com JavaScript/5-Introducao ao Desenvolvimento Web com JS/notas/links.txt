@@ -1,0 +1,15 @@
+https://www.canalti.com.br/redes-de-computadores/three-way-handshake-syn-synack-ack-tcp/
+
+https://gitbook.ganeshicmc.com/redes/three-way-handshake
+
+https://www.geeksforgeeks.org/explain-working-of-https/
+
+
+
+Video
+
+https://www.youtube.com/watch?v=j9QmMEWmcfo
+
+
+Medium
+https://medium.com/jspoint/a-brief-overview-of-the-tcp-ip-model-ssl-tls-https-protocols-and-ssl-certificates-d5a6269fe29e

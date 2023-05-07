@@ -1,0 +1,17 @@
+/* Css principal */
+
+* {
+  /*Reset geral do css*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "inter", Arial, Helvetica, sans-serif;
+}
+
+body * {
+  border: 1px red solid;
+}
+
+body {
+  background-color: #f6f8fc;
+}

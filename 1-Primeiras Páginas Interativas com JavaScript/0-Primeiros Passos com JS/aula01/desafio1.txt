@@ -1,0 +1,6 @@
+Calcule o gasto de uma viagem
+
+3 Variaveis serao necessarias:
+1 Preco Comb.
+2 Valor gasto carro por KM.
+3 Distancia em KM da viagem.

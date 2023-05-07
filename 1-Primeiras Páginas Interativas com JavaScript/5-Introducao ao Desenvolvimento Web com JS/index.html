@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript para Web</title>
+</head>
+    <!-- <button onclick="askMyName()"> Ask my name!</button>
+    <button onclick="sayHello()"> Say my name!</button> -->
+    <label>Write your name below:</label><br>
+    <input id="inputUserData" type="text" placeholder="write your name">
+
+    <button onclick="sayHello()"> Say my name!</button>
+    <script>
+        // let userName;
+        // function askMyName(){
+        //     userName = prompt(`Say your name: `)
+        // }
+
+        let userName;
+
+        function sayHello(){
+            userName = document.getElementById("inputUserData").value;
+
+            alert(`Hello World!, my name is ${userName}`)
+        }
+    </script>
+</body>
+</html>

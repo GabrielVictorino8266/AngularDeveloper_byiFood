@@ -1,0 +1,8 @@
+Calcule o gasto de uma viagem
+
+3 Variaveis serao necessarias:
+1 Preco Gasolina.
+2 Preco Etanol
+3 Tipo do Combustivel
+4 Km por Litro do Veiculo
+5 Distancia em KM da viagem.

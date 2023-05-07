@@ -1,0 +1,25 @@
+Requisiao HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=1
+     ${IP}/${path = caminho de identificacao do recurso}
+
+IP: https://pokemon.co
+    htpp://127.0.0.1:8080
+
+/api/v2/pokemon
+
+
+Request Method: GET | POST | PUT | DELETE | PATCH
+
+Request Method: GET
+
+E necessario passar alguns dados para o servidor retornar varios valores.
+
+Query string-> https://pokeapi.co/api/v2/pokemon?offset=2&limit=2
+
+Alem do Query string, podemos usar o proprio PATH para retornar os dados.
+
+E a paginacao dos dados. 
+
+
+
