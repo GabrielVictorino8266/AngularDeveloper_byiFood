@@ -1,37 +1,36 @@
-# Rodando Codigo TypeScript
+# Trabalhando com Tipos de Variáveis
 
-Podemos rodar ele por
+Os tipos primitivos são:
 
-> npx tsc src/index.ts
+> boolean, number e string
 
-Assim, ele criou um arquivo com a mesma funcionalidade, mas em JS.
+Para sua declaração, usamos:
 
-# Configurando O TypeScript para ser Executado.
-
-Uma maneira simples de executar arquivos typescript é criar um arquivo de configuração, confira:
-
-> npx tsc --init
-
-A linha de código acima cria um arquivo de configuração pré-configurada.
-
-Para saber o que podemos alterar e compreender, vamos na referência da linguagem em TSConfig Reference. Para saber mais, acesse:
-
-> https://www.typescriptlang.org/tsconfig
->
-> https://www.typescriptlang.org/play
-
-# Para executar TUDO de uma só vez
-
-Podemos fazer o seguinte, 
-
-```js
-  "scripts": {
-    "start":"npx tsc && node build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+```typescript
+let ligado:boolean = false // Variável tipada, não permite outro tipo de dado
+let ligado = false // Informa o tipo, mas não é tipada, então permite trocar para outro, exemplo "let ligado = 1"
 ```
 
-Adicionamos o script "start" e passamos os comandos que utilizamos, que são:
+Também temos os **TIPOS ESPECIAIS**, veja:
 
-> npx tsc -> transpila para js
+```typescript
+//Tipos especiais:
+
+//undefined
+let nulo: null = null; // Nao permite ninguem alterar seu valor
+let indefinido: undefined =  undefined // So permite usar o undefined
+```
+
+Por fim, os tipos abrangentes são dois, o Any e o VoidÇ
+
+> O Void aceita apenas Void que é "vazio"
 >
-> node build/index.js -> executa o codigo em index.js
+> O Any aceita qualquer tipo de dado
+
+```typescript
+// Tipos Abrangentes
+function executa(): void{} // Uma funcao ou coisas que nao tem retorno
+
+let retornoView: any = "felipe" // Aceita qualquer tipo (number, string, boolean)
+
+```
